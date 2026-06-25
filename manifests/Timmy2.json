@@ -1,0 +1,141 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://ARCrowe333.github.io/Timmy2/manifests/Timmy2.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Timmy's Takeout and Crossroads" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/479jaqat5bm-mqtt2ai5/canvas/zhqf34em67g-mqtt7jti",
+    "type" : "Canvas",
+    "height" : 727,
+    "width" : 833,
+    "label" : {
+      "en" : [ "Timmy's Takeout" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/timmystakeout%2ftimmystakeout.jpg/full/417,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 364,
+      "width" : 417
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/479jaqat5bm-mqtt2ai5/canvas/zhqf34em67g-mqtt7jti/annotation-page/wnt27ezj2w-mqtt7jti",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/479jaqat5bm-mqtt2ai5/annotation/mr4qz9sxjza-mqtt7jti",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/479jaqat5bm-mqtt2ai5/canvas/zhqf34em67g-mqtt7jti",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/timmystakeout%2ftimmystakeout.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 727,
+          "width" : 833,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/timmystakeout%2ftimmystakeout.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 833,
+            "height" : 727,
+            "sizes" : [ {
+              "width" : 104,
+              "height" : 91
+            }, {
+              "width" : 208,
+              "height" : 182
+            }, {
+              "width" : 417,
+              "height" : 364
+            }, {
+              "width" : 833,
+              "height" : 727
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 605591,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/479jaqat5bm-mqtt2ai5/canvas/z3vwmtpp49j-mqttcvmz",
+    "type" : "Canvas",
+    "height" : 4080,
+    "width" : 3072,
+    "label" : {
+      "en" : [ "Crossroads" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/pxl-20260619-160740173%2fPXL_20260619_160740173.jpg/full/384,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 510,
+      "width" : 384
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/479jaqat5bm-mqtt2ai5/canvas/z3vwmtpp49j-mqttcvmz/annotation-page/7v7ma2xe6ew-mqttcvmz",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/479jaqat5bm-mqtt2ai5/annotation/an3f10etbdg-mqttcvmz",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/479jaqat5bm-mqtt2ai5/canvas/z3vwmtpp49j-mqttcvmz",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/pxl-20260619-160740173%2fPXL_20260619_160740173.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4080,
+          "width" : 3072,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/pxl-20260619-160740173%2fPXL_20260619_160740173.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3072,
+            "height" : 4080,
+            "sizes" : [ {
+              "width" : 96,
+              "height" : 128
+            }, {
+              "width" : 192,
+              "height" : 255
+            }, {
+              "width" : 384,
+              "height" : 510
+            }, {
+              "width" : 768,
+              "height" : 1020
+            }, {
+              "width" : 1536,
+              "height" : 2040
+            }, {
+              "width" : 3072,
+              "height" : 4080
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 12533760,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
