@@ -11,5 +11,11 @@
       "en" : [ "Timmy's Takeout and Crossroads" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://ARCrowe333.github.io/Timmy2/manifests/timmymanifest2.json",
+    "label" : {
+      "en" : [ "Timmy Test2" ]
+    },
+    "type" : "Manifest"
   } ]
 }
