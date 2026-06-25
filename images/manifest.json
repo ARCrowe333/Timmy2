@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://arcrowe333.github.io/Timmy2/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in ARCrowe333/Timmy2 project"
+        ]
+    },
+    "items": []
+}
