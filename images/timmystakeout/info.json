@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 27,
+    "height" : 23
+  }, {
+    "width" : 53,
+    "height" : 46
+  }, {
+    "width" : 105,
+    "height" : 91
+  }, {
+    "width" : 209,
+    "height" : 182
+  }, {
+    "width" : 417,
+    "height" : 364
+  }, {
+    "width" : 833,
+    "height" : 727
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 833,
+  "@id" : "https://arcrowe333.github.io/Timmy2/images/timmystakeout",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 727
+}
