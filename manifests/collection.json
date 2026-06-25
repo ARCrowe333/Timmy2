@@ -1,0 +1,15 @@
+{
+  "id" : "https://ARCrowe333.github.io/Timmy2/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ARCrowe333/Timmy2 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://ARCrowe333.github.io/Timmy2/manifests/Timmy2.json",
+    "label" : {
+      "en" : [ "Timmy's Takeout and Crossroads" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
