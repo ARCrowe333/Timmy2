@@ -1,0 +1,72 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://ARCrowe333.github.io/Timmy2/manifests/timmymanifest2.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Timmy Test2" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/o73q5h2kio-mqtlyrvj/canvas/9d0m1npbaz4-mqtmonik",
+    "type" : "Canvas",
+    "height" : 727,
+    "width" : 833,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/timmystakeout%2ftimmystakeout.jpg/full/417,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 364,
+      "width" : 417
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/o73q5h2kio-mqtlyrvj/canvas/9d0m1npbaz4-mqtmonik/annotation-page/8x4cftapxa-mqtmonik",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/o73q5h2kio-mqtlyrvj/annotation/9diajt6zr4c-mqtmonik",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/o73q5h2kio-mqtlyrvj/canvas/9d0m1npbaz4-mqtmonik",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/timmystakeout%2ftimmystakeout.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 727,
+          "width" : 833,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/timmystakeout%2ftimmystakeout.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 833,
+            "height" : 727,
+            "sizes" : [ {
+              "width" : 104,
+              "height" : 91
+            }, {
+              "width" : 208,
+              "height" : 182
+            }, {
+              "width" : 417,
+              "height" : 364
+            }, {
+              "width" : 833,
+              "height" : 727
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 605591,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
